@@ -1,0 +1,8 @@
+{:itonami.blueprint/id "sculpt"
+ :itonami.blueprint/name "sculpt — digital-clay sculpting"
+ :itonami.blueprint/license "Apache-2.0"   ; as declared in README License section
+ ;; One classification key (itonami-lib blueprint.edn schema), chosen from
+ ;; README.md for the registry catalog (JUN-1439): isic-rev5 5829, checked against
+ ;; the ISIC Rev.5 structure table in cloud-itonami/app-itonami-org-un-isic.
+ :itonami.blueprint/isic-rev5 "5829"
+ :itonami.blueprint/domain :software/sculpting}
